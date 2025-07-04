@@ -33,6 +33,15 @@ Este sistema web permite a una empresa gestionar y mostrar libros digitales a su
    ```bash
    git clone https://github.com/jhefry3008/jhefryHerrera.git
 2. Copia la carpeta a tu directorio de XAMPP (htdocs).
-3. Crea la base de datos e importa el archivo SQL si lo tienes.
+3. Crea la base de datos e importa el archivo SQL.
 4. Configura db_connect.php con tus credenciales de base de datos
 5. Abre localhost/visor/index.php en tu navegador.
+
+## Credenciales Clientes
+usuario:clien             usuario:cleint2
+contraseña:654321         contraseña:654321
+
+## Credenciales administrador
+usuario:admin
+contraseña:123456
+
