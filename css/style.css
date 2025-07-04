@@ -1,0 +1,204 @@
+/* Fuente personalizada */
+@font-face {
+    font-family: 'bauhaus';
+    src: url('../fonts/Bauhaus.woff2') format('woff2'),
+         url('../fonts/Bauhaus.woff') format('woff'),
+         url('../fonts/Bauhaus_.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ===== RESET GENERAL ===== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: 'bauhaus', sans-serif;
+    color: #eaf5f0;
+    background-color: #0b1e13;
+    height: 100%;
+}
+
+/* ===== CONTENEDORES ===== */
+.container,
+.form-container,
+.libro {
+    background-color: #0f2e17;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+}
+
+/* ===== TÍTULOS ===== */
+h1, h2, h3 {
+    color: #60ef8b;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+label {
+    color: #60ef8b;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+/* ===== INPUTS ===== */
+.form-control, input, select, textarea {
+    background-color: #eaf5f0;
+    color: #102b2c;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    width: 100%;
+    transition: box-shadow 0.2s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px #60ef8b;
+}
+
+/* ===== BOTONES ===== */
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'bauhaus', sans-serif;
+}
+
+.btn-primary {
+    background-color: #2f7858;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #3f9d67;
+    transform: scale(1.03);
+}
+
+.btn-danger {
+    background-color: #b6463a;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #a1372c;
+    transform: scale(1.03);
+}
+
+.btn-secondary {
+    background-color: #445b65;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #374a51;
+    transform: scale(1.03);
+}
+
+/* ===== UTILIDADES ===== */
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+hr {
+    height: 4px;
+    background-color: #60ef8b;
+    border: none;
+    margin: 20px auto 30px;
+    width: 100%;
+}
+
+/* ===== TABLAS ===== */
+.table-container {
+
+    width: 100%;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #132d1b;
+    color: #eaf5f0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+   /* Estilos generales */
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #1d3d2b;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #183626;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #254f37;
+    transition: background-color 0.3s ease;
+}
+
+.table img {
+    width: 60px;
+    max-height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f2e17;
+    color: #60ef8b;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #60ef8b;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #a6f3c5;
+}
+.container {
+    max-width: 1200px;
+    padding: 20px;
+}
