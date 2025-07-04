@@ -96,8 +96,6 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nombre_usuario`, `contrasena`, `rol`, `telefono`, `nombre_cliente`, `email`, `fecha_registro`, `estado`) VALUES
-(40, 'JhefryH', '$2y$10$QizQqDsWgSs9aN9dWfzcoOyIjr205O6Ww8AdIlKbmEAtnOHhiYAXm', 'admin', '3157762008', 'Jhefry Herrera', 'jhefryherrera3008@gmail.com', '2024-07-21', 'activo'),
-(42, 'alejandrob', '$2y$10$pV61a8vcbjH079tbc3FrR.0bGteSYtrIy0oK14j0wyh1M5wclZI8G', 'cliente', '3157762008', 'Alejandro Beltran', 'jhefrygerador.herrera@gmail.com', '2025-04-12', 'activo'),
 (46, 'admin', '$2y$10$nJqX45LJgI8/FuI.jyV0VeK7dJmIQdAHfc3UFZhNnBR84tkAk7kJi', 'admin', '987654321', 'administrador sistema', 'administrador@gmail.com', '2025-07-03', 'activo'),
 (47, 'clien', '$2y$10$gwR2LZZfBlAh7t4X4s4BMOzKFk4PZ44YrGFXKxEjIUb1w850k5jS.', 'cliente', '321456789', 'cliente sistema', 'cliente@cliente.com', '2025-07-03', 'activo'),
 (48, 'cleint2', '$2y$10$S8A8EkYMxBmmb68GJvyB/eS7EmIqv2JBSHimtO9qB7/qm37uvQ3/2', 'cliente', '987654321', 'cliente sistema 2', 'cliente2@cliente.com', '2025-07-03', 'activo');
