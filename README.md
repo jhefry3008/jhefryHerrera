@@ -38,10 +38,10 @@ Este sistema web permite a una empresa gestionar y mostrar libros digitales a su
 5. Abre localhost/visor/index.php en tu navegador.
 
 ## Credenciales Clientes
-usuario:clien             usuario:cleint2
-contraseña:654321         contraseña:654321
+-usuario:clien             -usuario:cleint2
+-contraseña:654321         -contraseña:654321
 
 ## Credenciales administrador
-usuario:admin
-contraseña:123456
+-usuario:admin
+-contraseña:123456
 
