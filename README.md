@@ -48,15 +48,24 @@ Los administradores pueden cargar libros en formato PDF con su respectiva portad
 4. Configura db_connect.php con tus credenciales de conexión.
 
 5. Abre http://localhost/visor/index.php en tu navegador.
+## 🔐 Credenciales de prueba
 
-🔐 Credenciales de prueba
-👤 Clientes
-Usuario: clien | Contraseña: 654321
+### 👥 Clientes
+- Usuario: `clien` | Contraseña: `654321`  
+- Usuario: `client2` | Contraseña: `654321`
 
-Usuario: client2 | Contraseña: 654321
+### 🛠️ Administrador
+- Usuario: `admin` | Contraseña: `123456`
 
-👨‍💼 Administrador
-Usuario: admin | Contraseña: 123456
+---
 
-📌 Nota
-Este proyecto fue desarrollado como parte de mi formación práctica para demostrar habilidades en desarrollo web fullstack, manejo de sesiones, control de acceso, carga de archivos y relaciones entre usuarios y contenidos.
+## 📝 Nota
+
+Este proyecto fue desarrollado como parte de mi formación profesional, con el objetivo de demostrar habilidades en:
+
+- Desarrollo web fullstack
+- Manejo de sesiones y control de acceso
+- Carga de archivos (PDF e imágenes)
+- Relaciones entre usuarios y contenidos en bases de datos
+
+---
