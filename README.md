@@ -32,9 +32,7 @@ Este sistema web permite a una empresa gestionar y mostrar libros digitales a su
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/tu_usuario/visor-libros-php.git
-   Copia la carpeta a tu directorio de XAMPP (htdocs).
-   Crea la base de datos e importa el archivo SQL si lo tienes.
-
-   Configura db_connect.php con tus credenciales de base de datos.
-
-   Abre localhost/visor/index.php en tu navegador.
+2. Copia la carpeta a tu directorio de XAMPP (htdocs).
+3. Crea la base de datos e importa el archivo SQL si lo tienes.
+4. Configura db_connect.php con tus credenciales de base de datos
+5. Abre localhost/visor/index.php en tu navegador.
